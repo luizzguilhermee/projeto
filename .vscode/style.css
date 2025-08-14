@@ -74,7 +74,7 @@ body * {
   right: 0;
   z-index: 1;
   transform: translateY(-50%);
-  animation: slide-out 0.2s;
+  animation: slide-out 0.4s;
 }
 
 .light #switch button {
@@ -156,12 +156,12 @@ footer {
 
 /* media queries */
 
-@media (min-width: 700px) {
+@media (min-width: 688px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg);
+    --bg-url: url(./assets/assets/bg-desktop.jpg);
   }
   .light {
-    --bg-url: url(./assets/bg-deskto-light.jpg);
+    --bg-url: url(./assets/assets/bg-desktop-light.jpg);
   }
 }
 
