@@ -1,85 +1,70 @@
-# 🌐 Página Pessoal de Links
+# 📌 Projeto de Portfólio
 
-[![GitHub license](https://img.shields.io/github/license/seu-usuario/seu-repositorio?style=flat-square)](LICENSE)
-[![Status](https://img.shields.io/badge/status-online-brightgreen?style=flat-square)]()
-[![Made with](https://img.shields.io/badge/Made%20with-HTML5%20%26%20CSS3-orange?style=flat-square)]()
-
-Uma página simples e responsiva no estilo **Linktree**, para centralizar seus links, redes sociais e informações de contato.  
-Conta com **modo claro/escuro**, design minimalista e otimização para dispositivos móveis.
-
-![Demonstração do Projeto](./preview.gif)
+Este é um projeto pessoal de portfólio desenvolvido em **HTML**, **CSS** e **JavaScript**, com o objetivo de apresentar informações sobre mim, links importantes e redes sociais, de forma simples e responsiva.
 
 ---
 
-## 📸 Preview
+## 🚀 Funcionalidades
 
-![Demonstração do Projeto](./assets/assets/preview.gif)
-
-🔗 **Acesse Online:** [Clique aqui para visualizar](https://seuusuario.github.io/seu-repositorio/)
-
----
-
-## ✨ Funcionalidades
-
-✔️ **Perfil com avatar e nome de usuário**  
-✔️ **Links personalizados** para portfólio, redes sociais, e-book, etc.  
-✔️ **Ícones sociais interativos** com efeito *hover*  
-✔️ **Alternância de Modo Claro/Escuro**  
-✔️ **Layout 100% responsivo** para mobile e desktop  
+- 🌗 **Modo Claro/Escuro** com troca de tema ao clicar no botão.
+- 🖼️ **Foto de perfil dinâmica**, que muda conforme o tema.
+- 📱 **Layout responsivo** para dispositivos móveis.
+- 🔗 Links para redes sociais e portfólio.
+- 🎨 Estilo moderno com transições suaves.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
 - **HTML5**
-- **CSS3** *(com variáveis de cor para personalização)*
-- **JavaScript** *(alternância de temas)*
-- **[Ionicons](https://ionic.io/ionicons)** *(ícones vetoriais)*
-- **Google Fonts** *(Poppins e Nata Sans)*
+- **CSS3**
+- **JavaScript**
+- [Ionicons](https://ionic.io/ionicons) para ícones.
+- Google Fonts (**Poppins** e **Nata Sans**).
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📂 Estrutura de Pastas
 
 ```bash
-📁 Projeto
-│── index.html      # Estrutura da página
-│── style.css       # Estilização e temas
-│── script.js       # Alternância entre modos
-│
-└── 📁 assets
-    ├── avatar.png
-    ├── avatar-light.png
-    ├── bg-mobile.jpg
-    ├── bg-mobile-light.jpg
-    ├── moon-stars.svg
-    └── sun.svg
+/
+├── index.html      # Estrutura principal da página
+├── style.css       # Estilos e temas
+├── script.js       # Lógica de troca de tema
+├── assets/         # Imagens e ícones
+├── extension.json  # Extensões recomendadas no VSCode
+└── settings.json   # Configurações do VSCode
 
-🚀 Como Usar
+🎯 Como Executar o Projeto
 
-Clone este repositório
+Clone o repositório
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/seu-usuario/projeto-portfolio.git
 
 
 Acesse a pasta do projeto
 
-cd seu-repositorio
+cd projeto-portfolio
 
 
-Abra o arquivo index.html no navegador
-(Não é necessário servidor local)
+Abra o arquivo index.html no navegador ou use a extensão Live Server no VSCode.
 
-🎨 Personalização
+💡 Extensões Recomendadas no VSCode
 
-Alterar os links no arquivo index.html
+Este projeto inclui um arquivo .vscode/extensions.json com recomendações:
 
-Substituir imagens na pasta assets
+Prettier - Code formatter
 
-Ajustar cores e fontes no style.css
+Material Icon Theme
 
-📜 Licença
+Omni Theme
 
-Este projeto está sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+Live Server
 
-💙 Feito com ♥ pelo pai da Anna!
+
+📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usá-lo e adaptá-lo.
+
+Feito com ❤️ por Luís Guilherme
+```
